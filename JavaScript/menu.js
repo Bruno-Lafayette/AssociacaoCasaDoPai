@@ -4,7 +4,7 @@ window.onscroll = scroll;
 
 function scroll(){
     var scrollTop = window.pageYOffset;
-    if(scrollTop > 80){
+    if(scrollTop > 180){
         try{
             document.getElementById("menuPosicaoInicial").id = "menuPosicaoSecundaria"
         }catch{
